@@ -1,0 +1,269 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+/*********pinecitymall logo*******/
+#logo{
+    position: fixed;
+    top:0px;
+    left: 0px;
+    z-index:500;
+    width: 100%;
+    height:80px;
+    background: url("images/background.jpg");
+    background-repeat: repeat-x;
+}
+    
+#logo img{
+       display: block;
+        margin: auto;
+        height: 70%;
+        padding-top: 15px;
+    }
+
+/*************both top and bottom nav-bars/menu(homepage,map,about etc.)************/
+    #nav-bar {
+        position: fixed;
+        top:80px;
+        left: 0;
+        z-index: 500px;
+        width:100%;
+        height:40px;
+        background-color: rgb(87, 54, 207);
+    
+    }
+    
+    #nav-bar a{
+        float   : left;
+        display : block;
+        width   : 33%;
+        height  :35px;
+        font-weight : 700px;
+        font-family: inherit;
+        color       : white;
+        text-align  : center;
+        text-decoration : none;
+        padding-top     : 12px;  
+    }
+
+    #navbar-btm{
+        position : fixed;
+        bottom   : 0;
+        left     : 0;
+        z-index  : 500px;
+        width    : 100%;
+        height   : 40px;
+        background-color:rgb(87, 54, 207);
+    
+    }
+    
+    #navbar-btm a{
+       float : left;
+       display : block;
+       width : 33%;
+       height : 35px;
+       font-weight : 700px;
+       font-family: inherit;
+       color       : white;
+       text-align  : center;
+       text-decoration : none;
+       padding-top     : 12px;
+    
+    }
+
+/******************contact transparent box with image, form and submit button ***************/
+    #main-home{
+        margin-top: 119px;
+        background: url("images/Ground-Floor.png");
+        background-repeat: repeat-y;
+    }
+    
+    #content{
+        padding-top: 1px;
+        padding-bottom: 50px;
+    }
+
+#box{
+    background-color: rgba(255,255,255,.8);
+    width: 50%;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    padding: 10px;
+}
+
+#box img{
+width:60%;
+
+}
+
+input{
+    width: 40%;
+    height: 25px;
+    margin : 12px;
+    border : 1px solid #5a5a5c;
+}
+
+textarea{
+    width: 50%;
+    height :25px;
+    margin : 12px 0;
+    border : 1px solid #5a5a5c;
+}
+
+.button{
+    display : block;
+    background-color:  rgb(112, 81, 221);
+    text-decoration : none;
+    color       : white;
+    font-weight : 400px;
+    padding : 8px 0;
+}
+
+/*************individual transparent boxes with images, paragraphs and next arrow(Movies page)*********/
+a.small-box{
+    text-decoration : none;
+    background      : rgba(255 ,225, 255, .8);
+    width           : 90%;
+    height          : 100px;
+    display         : block;
+    margin          : auto;
+    margin-top      : 15px;
+    padding         : 1px; 
+}
+
+.small-box img{
+    height : 70px;
+    margin : 10px;
+    float  : left;
+}
+
+
+.small-box h3{
+    padding : 0;
+    margin-bottom :0;
+    width : 90%;
+    color: purple;
+}
+
+.small-box p{
+    margin  : 0;
+    padding : 0;
+    width   : 90%;
+    color: black;
+}
+
+.small-box img.right{
+    float      : right;
+    margin-top : 25px;
+    height: 50px; 
+}
+
+h2{
+    color: white;
+}
+
+/****************each movie page has a transparent box with info about the movie***********/
+#box-full{
+    background-color : rgba(255, 255, 255, .8) ;
+    width   : 90%;
+    display : block;
+    margin  : auto;
+    margin-top : 12px;
+    padding    : 10px;
+}
+
+
+
+#box-full img{
+    width : 70%;
+}
+
+/**************************shops page with categories of stores*************************/
+a.small-box-list{
+    text-decoration : none;
+    background      : rgba(255 ,225, 255, .8);
+    width           : 90%;
+    height          : 180px;
+    display         : block;
+    margin          : auto;
+    margin-top      : 15px;
+    padding         : 1px; 
+}
+
+.small-box-list img{
+    height : 100px;
+    margin : 35px;
+    float  : left;
+}
+
+
+.small-box-list h3{
+    padding : 0;
+    margin-bottom :0;
+    width : 90%;
+    color: purple;
+}
+
+.small-box-list ul{
+    margin  : 0;
+    padding : 0;
+    width   : 90%;
+    color: black;
+}
+
+.small-box-list img.right{
+    float      : right;
+    margin-top : 60px;
+    height: 60px; 
+}
+
+/***********************************available store images********************************/
+#img{
+    float: left;
+    width: 300px;
+    padding:50px;
+}
+
+#img img{
+    height: 400px;
+}
+
+ /********************homepage**************/
+.sales{
+    float: left;
+    width: 300px;
+    padding:150px;
+}
+
+.sales img{
+    height: 300px;
+}
+
+/************individual shop images style or layout**********/
+.row-img{
+    float: left;
+    width: 200px;
+    padding:10px;
+
+}
+
+.imgs img{
+    height:500px;
+}
+
+h3{
+font-family:'Courier New', Courier, monospace ;
+}
+
+p{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dropbtn{
+    font-family:inherit;
+}

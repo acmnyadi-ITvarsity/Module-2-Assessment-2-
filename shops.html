@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="logo">
+        <img src="images/pineCity.png"/>
+    </div>
+    <style>
+        .dropbtn{
+            background-color: rgb(87, 54, 207);
+            color:white;
+            padding: 11px;
+            border: none;
+            margin-right: 19.5px;
+            width: 200%;
+        }
+        
+        /*The container <div> - needed to position the dropdown content*/
+        .dropdown{
+            position: relative;
+            display: inline-block;
+        }
+        
+        /*Dropdown content (Hidden by default)*/
+        .dropdown-content{
+            display: none;
+            position: absolute;
+            background-color: lightslategray;
+            min-width: 100px;
+            z-index:1;
+        }
+        
+        /*Links inside the dropdown*/
+        .dropdown-content a{
+            padding: 35px 50px;
+            text-decoration: none;
+            display: block;
+        }
+        
+        /*change color of dropdown menu on hover*/
+        .dropdown-content a:hover{
+        background-color: rgb(148, 132, 207);
+        }
+        
+        /*show the dropdown menu on hover*/
+        .dropdown:hover .dropdown-content{
+            display:block;
+        }
+        
+        /*change the background color of the dropdown button when the dropdown content is shown*/
+        .dropdown:hover .dropbtn{
+            background-color:rgb(112, 81, 221);
+        }  
+        
+                </style>
+
+    <div id="logo">
+        <img src="images/pineCity.png"/>
+    </div>
+    <div id="nav-bar">
+        <a href="index.html">Homepage</a>
+         <a href="shops.html">Shops</a>
+       <div class="dropdown">
+       <button class="dropbtn">Maps</button>
+       <div class="dropdown-content">
+           <a href="map1.html">First Floor Map</a>
+           <a href="map2.html">Second FLoor Map</a>
+           <a href="map3.html">Lower Ground Floor Map</a>
+       </div> 
+       </div>
+       </div>
+    
+    <div id="main-home">
+        <div id="content">
+            <center>
+            <h2>Available outlets</h2>
+            </center>
+             <a class="small-box-list" href="clothing-stores.html">
+                  <img class="right" src="images/nextbtn.png"/>
+                  <img src="images/clothes.jpg"/>
+                  <h3 a href="">Clothing stores</h3>
+                  <ul>
+
+                      <li>H&M</li>
+                      <li>Mrp Sport</li>
+                      <li>Edgars</li>
+                      <li>Truworths</li>
+                      <li>Foschini</li>
+                      <li>Jet</li>
+
+                  </ul>
+             </a>
+
+             <a class="small-box-list" href="electronics.html">
+              <img class="right" src="images/nextbtn.png"/>
+              <img src="images/electronics.jpg"/>
+              <h3 a href="">Electronic stores</h3>
+              <ul>
+
+                <li>Game</li>
+                <li>House & Home</li>
+                <li>Dionwired</li>
+                <li>@Home</li>
+                <li>ToysRus</li>
+
+            </ul>
+              
+         </a>
+
+         <a class="small-box-list" href="restaurants.html">
+              <img class="right" src="images/nextbtn.png"/>
+              <img src="images/restaurant.jpg"/>
+              <h3 a href="">Restaurants</h3>
+              <ul>
+
+                <li>McDonalds</li>
+                <li>Wimpy</li>
+                <li>Starbucks</li>
+                <li>Calisto's</li>
+                <li>Kauai</li>
+
+            </ul>
+         </a>
+
+         <a class="small-box-list" href="supermarkets.html">
+          <img class="right" src="images/nextbtn.png"/>
+          <img src="images/supermarket.jpg"/>
+          <h3>Supermarkets</h3>
+          <ul>
+
+            <li>Woolworths</li>
+            <li>Spar</li>
+            <li>Checkers</li>
+            <li>Game</li>
+            <li>Tops</li>
+
+        </ul>
+     </a>
+
+     <a class="small-box" href="map.html">
+        <img class="right" src="images/nextbtn.png"/>
+        <img src="images/Ground-Floor.png"/>
+        <br/><br/>
+        <p>Here's a map of the Ground Floor, where most of the clothing store are located.</p>
+        <p>click the arrow to view map!</p>
+    </a>
+
+    </div>
+    <div id="navbar-btm">
+        <a href="movies.html">Movies</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        
+    </div>
+
+
+
+</body>
+
+
+
+</html>
